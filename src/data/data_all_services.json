@@ -1,0 +1,82 @@
+[
+  {
+    "name": "full-set",
+    "number": "0"
+  },
+  {
+    "name": "fill",
+    "number": "1"
+  },
+  {
+    "name": "fill color gel",
+    "number": "2"
+  },
+  {
+    "name": "pink & white",
+    "number": "3"
+  },
+  {
+    "name": "pink & white fill",
+    "number": "4"
+  },
+  {
+    "name": "dip nail full-set",
+    "number": "5"
+  },
+  {
+    "name": "liquid gel full-set",
+    "number": "6"
+  },
+  {
+    "name": "liquid get fill",
+    "number": "7"
+  },
+  {
+    "name": "manicure",
+    "number": "8"
+  },
+  {
+    "name": "spa pedicure",
+    "number": "9"
+  },
+  {
+    "name": "deluxe pedicure",
+    "number": "10"
+  },
+  {
+    "name": "manicure gel",
+    "number": "11"
+  },
+  {
+    "name": "pedicure gel",
+    "number": "12"
+  },
+  {
+    "name": "nail repair",
+    "number": "13"
+  },
+  {
+    "name": "nail/gel removal",
+    "number": "14"
+  },
+  {
+    "name": "nail design",
+    "number": "15"
+  },
+  {
+    "name": "polish change",
+    "number": "16"
+  },
+  {
+    "name": "trim nails",
+    "number": "17"
+  },
+  {
+    "name": "waxing eyebrow",
+    "number": "18"
+  },
+  {
+    "name": "waxing body",
+    "number": "19"
+  }
+]
