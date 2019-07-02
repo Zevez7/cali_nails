@@ -37,6 +37,13 @@ export default class NavBar extends Component {
                 LOCATION
               </li>
               <li
+                className="nav-item nav-link pointer text-nowrap"
+                alink="about"
+                onClick={e => scrollingView(e)}
+              >
+                ABOUT US
+              </li>
+              <li
                 className="nav-item nav-link pointer"
                 alink="photo"
                 onClick={e => scrollingView(e)}
@@ -49,10 +56,10 @@ export default class NavBar extends Component {
                 onClick={e => scrollingView(e)}
               >
                 SERVICES
-              </li>{" "}
+              </li>
               <li className="nav-item">
                 <span className="nav-link number active">
-                  <div className="phone-number"> 813-634-6500</div>
+                  <div className="phone-number text-nowrap"> 813-634-6500</div>
                 </span>
               </li>
             </ul>

@@ -7,8 +7,8 @@ export default class Services extends Component {
     super();
 
     this.state = {
-      serviceImg: "fullset",
-      selected_link: "fullset",
+      serviceImg: "fullset-min",
+      selected_link: "fullset-min",
       splicenumber: data_all_services.length / 2
     };
     this.displayImg = this.displayImg.bind(this);
@@ -43,7 +43,7 @@ export default class Services extends Component {
 
     const all_services_map1 = data_all_services
       .map(item => (
-        <li className="list-group-item extra" key={item.number}>
+        <li className="list-group-item extra pl-4" key={item.number}>
           {item.name.toUpperCase()}
         </li>
       ))
@@ -51,7 +51,7 @@ export default class Services extends Component {
 
     const all_services_map2 = data_all_services
       .map(item => (
-        <li className="list-group-item extra" key={item.number}>
+        <li className="list-group-item extra pl-4" key={item.number}>
           {item.name.toUpperCase()}
         </li>
       ))
@@ -94,12 +94,12 @@ export default class Services extends Component {
           {/* Extra-Services */}
           <div className="row justify-content-center p-4 service-list">
             <div className="col 6">
-              <ul className="list-group list-group-flush">
+              <ul className="list-group list-group-flush border ">
                 {all_services_map1}
               </ul>
             </div>
             <div className="col 6">
-              <ul className="list-group list-group-flush service-list">
+              <ul className="list-group list-group-flush border ">
                 {all_services_map2}
               </ul>
             </div>

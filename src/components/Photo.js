@@ -67,7 +67,7 @@ export default class Photo extends Component {
           </div>
 
           <div className="row justify-content-center mt-4">
-            <div className="col-12">
+            <div className="col-lg-8 col-md-9 col-sm-12 col-12">
               <img
                 src={require(`../images/salon/salon${this.state.photoIMG}.jpg`)}
                 className="img-fluid shadow-custom mx-auto d-block photo"

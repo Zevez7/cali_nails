@@ -40,14 +40,23 @@ jump to the right position */
 .return_top {
   display: inline-block;
   position: relative;
-  top: -50px;
+  padding: 10px 10px 10px 10px;
+  top: -40px;
   font-weight: 600;
-  opacity: 0.5;
+  opacity: 0.4;
   color: #007bff;
+  font-size: 1.2rem;
+  border-radius: 15px;
 }
 
 .return_top:hover {
-  text-decoration: underline;
+  opacity: 1;
+  background-color: rgb(231, 231, 231);
+}
+
+.fixed_spacer {
+  height: 100px;
+  width: auto;
 }
 /* nav */
 .home {
@@ -59,7 +68,7 @@ jump to the right position */
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .nav-link.pointer {
@@ -69,6 +78,7 @@ jump to the right position */
 
 .nav-link.pointer:hover {
   border-bottom: 3px solid #007bff;
+  background-color: rgb(231, 231, 231);
 }
 
 .number {
@@ -90,7 +100,7 @@ div.background {
 div.right-col {
   background-color: rgba(255, 255, 255, 0.85);
   position: absolute;
-  bottom: 100px;
+  bottom: 30px;
 }
 
 button.btn {
@@ -155,6 +165,7 @@ li:hover.alink-mimic {
 }
 
 /* photo */
+
 .thumbnail-container {
   overflow-x: auto;
   margin: 2px;
@@ -185,38 +196,4 @@ img.photo-selected {
 .parent-image-container {
   max-height: 800px;
   width: auto;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

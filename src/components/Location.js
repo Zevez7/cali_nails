@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { Component } from "react";
 import Review from "./Review";
-import calinail from "../images/calinailsmap1.png";
+import calinail from "../images/calinailsmap1-min.png";
 import { FaArrowUp } from "react-icons/fa";
 
 export default class Location extends Component {
@@ -29,15 +29,15 @@ export default class Location extends Component {
           </div>
           {/* row */}
           <div className="row justify-content-center">
-            <div className="col-lg-5 col-md-12 col-sm-12 col-12 mb-3">
-              <div className="h2 mt-1"> Address </div>
+            <div className="col-lg-5 col-md-12 col-sm-12 col-12">
+              <div className="h2 mt-5"> Address </div>
               <ul className="list-group shadow-custom mb-4">
                 <li className="list-group-item h4">
                   5358, 1517 Sun City Center Plaza # B,
                   <br /> Sun City Center, FL 33573
                 </li>
               </ul>
-              <div className="h2"> Hours</div>
+              <div className="h2 mt-5"> Hours</div>
               <ul className="list-group shadow-custom">
                 <li className="list-group-item h4">
                   OPEN: Monday - Saturday: 9am - 6pm
@@ -48,17 +48,17 @@ export default class Location extends Component {
                 <li className="list-group-item h4">
                   HOLIDAY CLOSED:
                   <ul>
-                    <li>Christmas's Day</li>
+                    <li>Christmas Day</li>
                     <li>New Year's Day</li>
                     <li>Memorial Day</li>
-                    <li>Easter Day</li>
+                    <li>Easter</li>
                   </ul>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-7 col-md-12 col-sm-12 col-12">
-              <div className="h2">
+              <div className="h2 mt-5">
                 Location:
                 <a href="https://goo.gl/maps/ZXbgyUw6vNsvUwBHA">Google Map</a>
               </div>
@@ -71,7 +71,8 @@ export default class Location extends Component {
               </a>
             </div>
           </div>
-          <div className="row justify-content-center pt-5">
+          <div className="fixed_spacer" />
+          <div className="row justify-content-center">
             <div className="col-12 text-center m-4 h1 font-weight-bold">
               ONLINE REVIEW
             </div>

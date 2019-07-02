@@ -36,18 +36,6 @@ export default class Hero extends Component {
     }
   }
 
-  /* 
-  random_background() {
-
-
-    this.setState({
-      url: require("../images/designecologist-565222-unsplash.jpg"),
-
-      serviceImg2: `${datalink2}`,
-      selected_link2: `${datalink2}`
-    });
-  } */
-
   render() {
     return (
       <main>
@@ -58,16 +46,14 @@ export default class Hero extends Component {
           }}
         >
           <div className="row justify-content-end pt-5">
-            <div className="col-lg-4 col-md-5 col-sm-7 col-10 right-col p-3 ml-0 rounded-left h3">
-              <div className="mb-1 h2 ">
-                CALI NAILS <br />
-                FRIENDLY NAIL CARE <br />
+            <div className="col-lg-5 col-md-6 col-sm-7 col-10 right-col p-3 ml-0 rounded-left h3">
+              <div className="mb-1 h5 ">
+                <span className="h1 font-weight-bolder">CALI NAILS</span> <br />
+                FRIENDLY & PROFESSIONAL
+                <br />
               </div>
-              <button
-                type="button"
-                className="btn btn-success .btn-lg shadow-lg"
-              >
-                CALL (813) 634-6500
+              <button type="button" className="btn btn-success .btn-lg">
+                (813) 634-6500
               </button>
             </div>
           </div>

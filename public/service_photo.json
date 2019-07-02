@@ -1,31 +1,30 @@
 [
   {
     "name": "acrylic nail",
-    "link": "fullset"
+    "link": "fullset-min"
   },
   {
     "name": "pink & white",
-    "link": "pink&white"
+    "link": "pink&white-min"
   },
   {
     "name": "liquid gel",
-    "link": "4"
+    "link": "liquid_gel_nail-min"
   },
   {
     "name": "manicure",
-    "link": "6"
+    "link": "manicure-min"
   },
   {
     "name": "spa pedicure",
-    "link": "pedicure"
+    "link": "pedicure-min"
   },
   {
     "name": "gel manicure & pedicure ",
-    "link": "mani&pedgel"
+    "link": "mani&pedgel-min"
   },
   {
     "name": "waxing",
-    "link": "eyebrow"
+    "link": "eyebrow-min"
   }
-
 ]
