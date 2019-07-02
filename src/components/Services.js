@@ -92,13 +92,13 @@ export default class Services extends Component {
             </div>
           </div>
           {/* Extra-Services */}
-          <div className="row justify-content-center p-4 service-list">
-            <div className="col 6">
+          <div className="row justify-content-center p-2 service-list">
+            <div className="col-lg-4 col-md-5 col-sm-6 col-6">
               <ul className="list-group list-group-flush border ">
                 {all_services_map1}
               </ul>
             </div>
-            <div className="col 6">
+            <div className="col-lg-4 col-md-5 col-sm-6 col-6">
               <ul className="list-group list-group-flush border ">
                 {all_services_map2}
               </ul>
