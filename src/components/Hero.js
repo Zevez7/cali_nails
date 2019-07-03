@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { FaPhoneVolume } from "react-icons/fa";
 
 export default class Hero extends Component {
   constructor(props) {
@@ -53,7 +54,9 @@ export default class Hero extends Component {
                 <br />
               </div>
               <button type="button" className="btn btn-success .btn-lg">
-                (813) 634-6500
+                <a className="text-white h2" href="tel:+1-813-634-6500">
+                  <FaPhoneVolume /> 813-634-6500
+                </a>
               </button>
             </div>
           </div>

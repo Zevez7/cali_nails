@@ -59,7 +59,9 @@ export default class NavBar extends Component {
               </li>
               <li className="nav-item">
                 <span className="nav-link number active">
-                  <div className="phone-number text-nowrap"> 813-634-6500</div>
+                  <div className="phone-number text-nowrap">
+                    <a href="tel:+1-813-634-6500"> 813-634-6500 </a>
+                  </div>
                 </span>
               </li>
             </ul>
